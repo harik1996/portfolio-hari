@@ -33,6 +33,9 @@ body {
     font-size: 45px;
     text-align: center;
 }
+#text-container {
+    text-align: center;
+}
 
 @media screen and (min-width:800) , (max-width:900px) {
     body{
