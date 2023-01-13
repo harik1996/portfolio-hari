@@ -10,5 +10,6 @@ export class Component1Component {
   cname:string ="sidebar";
   public items: any = ['Home', 'About']; 
   cname1:string="special";
+  path:string="../assests/man.jpeg";
 
 }

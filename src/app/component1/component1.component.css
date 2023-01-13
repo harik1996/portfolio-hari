@@ -1,26 +1,20 @@
 body {
     font-family: sans-serif;
 }
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
 .sidebar {
     position: fixed;
     left: 0;
-    width: 450px;
+    width: 300px;
     height: 100%;
     background: #042331;
     transition: all .5s ease;
 }
-.sidebar ul  a {
+.sidebar ul a {
     display: block;
     height: 100%;
     width: 100%;
     line-height: 65px;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     padding-left: 40px;
     box-sizing: border-box;
@@ -28,14 +22,21 @@ body {
     border-bottom: 1px solid black;
     transition: .4s;
 } 
-ul li:hover a {
-    padding-left: 50px;
-    
+#home-section {
+    position: relative;
+    margin-bottom: 50px;
 }
-.sidebar ul a i {
-    margin-right: 16px;
+#home-section p {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: 45px;
+    text-align: center;
 }
-#check {
-    display: none;
+
+@media screen and (min-width:800) , (max-width:900px) {
+    body{
+        background-color: lightgrey;
+        font-size: small;
+    }
 }
-         
